@@ -166,19 +166,21 @@ body {
     border-radius: 10px;
     flex-shrink: 0;
     flex-grow: 0;
+    overflow: hidden;
 
 }
 
 #globe-night {
-    width: 14rem;
-    height: 14rem;   
+    max-width: 14rem;
+    max-height: 14rem;   
     mix-blend-mode: darken;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 #normal-plan-descr {
     margin: 0;
     color: white;
+    text-align: center;
 }
 
 #normal-plan-title {
@@ -192,11 +194,11 @@ h6 {
 }
 
 #premium-plan-img {
-    width: 12rem;
+    max-width: 12rem;
     height: auto;
     margin-top: 1rem;
     mix-blend-mode: difference;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 #premium-plan-title {
@@ -224,11 +226,12 @@ h6 {
 
   #normal-plan-title, #premium-plan-title {
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
   h6, .plan-descr {
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
   }
 
   .team {
