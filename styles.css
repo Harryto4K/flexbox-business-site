@@ -77,7 +77,7 @@ body {
 
 #background-video {
     width: 100%;
-    height: 105vh;
+    height: 106vh;
     top: 0;
     z-index: -1; 
     position: absolute;
@@ -124,6 +124,7 @@ body {
     padding: 2rem 0; 
     justify-content: space-around;
     flex-shrink: 0;
+    margin-top: 1rem;
 }
 
 @media only screen and (max-width: 720px) {
@@ -161,7 +162,7 @@ body {
   }
 
   #store-nav {
-  float: right;
+    float: right;
 
   }
   #image-logo {
@@ -174,24 +175,8 @@ body {
     margin: .3rem 5rem;
   }
 
-  .contact {
-    display: flex;
-    flex-direction: column;
-    min-height: 20rem;
-    max-width: 100%;
-  }
-
-  p {
-    line-height: 1rem;
-  }
-
-  .footer-li {
-    list-style-type:"|";
-    color: gray;
-    font-size: .5rem;
-    padding: 0 1%;
-  }
 }
+
 
 .plans {
     min-width: 35%;
@@ -290,6 +275,7 @@ h6 {
     flex-wrap: wrap;
     margin: 2.5rem 0;
     border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
 
   }
 
@@ -313,6 +299,7 @@ h6 {
     align-items: center;
     min-height: 20rem;
     max-width: 100%;
+    margin-top: 1rem;
   }
 
   .contact-box {
@@ -323,6 +310,7 @@ h6 {
 
   #contact-title {
     padding: 1rem 0;
+    font-family: "Josefin Sans", sans-serif;
 
   }
 
@@ -362,4 +350,36 @@ h6 {
 
   #first-li-contact {
     list-style-type: none;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .contact {
+      display: flex;
+      flex-direction: column;
+      min-height: 20rem;
+      max-width: 100%;
+    }
+
+    .contact-box {
+      display: flex;
+      flex-direction: column;
+      max-width: 75%
+    }
+    p {
+      line-height: 1.5rem;
+    }
+  
+    .footer-li {
+      list-style-type:"|";
+      color: gray;
+      font-size: .75rem;
+      padding: 0 1%;
+    }
+
+    #map-contact {
+      width: auto;
+      height: auto;
+      padding: 10% 0;
+    }
+
   }
