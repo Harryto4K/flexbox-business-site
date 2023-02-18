@@ -174,6 +174,23 @@ body {
     margin: .3rem 5rem;
   }
 
+  .contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    max-width: 100%;
+  }
+
+  p {
+    line-height: 1rem;
+  }
+
+  .footer-li {
+    list-style-type:"|";
+    color: gray;
+    font-size: .5rem;
+    padding: 0 1%;
+  }
 }
 
 .plans {
