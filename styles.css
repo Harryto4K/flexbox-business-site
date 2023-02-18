@@ -21,7 +21,7 @@ body {
     backdrop-filter: blur(8px);
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .nav {
